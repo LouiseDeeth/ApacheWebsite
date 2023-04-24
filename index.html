@@ -12,14 +12,19 @@
 		<title>Exercise for Computer Tech</title>
 		<style>
 			h1 {color: blue;}
+			p {color: green}
 		</style>
 	</head>
 	<body>
-		<h1>Changing styles with the DOM</h1>
+		<h1>Changing styles</h1>
+		
+		<p>Adding a paragraph</p>
+		
 		<h2 id="myText">Change this text</h2>
 		<button onclick="changeColor()">Change colour of H2</button>
 
 	<script>
+		alert("Hello World");	
 		function changeColor(){
 			document.getElementById("myText").style.color = "red";
 		}
